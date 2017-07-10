@@ -1,0 +1,66 @@
+{{define "title"}}Dashboard{{end}}
+
+{{define "body"}}
+<div class="btn-toolbar oftn-timebtns">
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Clock In</button>
+    <button type="button" class="btn btn-default btn-lg" disabled>Clock Out</button>
+  </div>
+  <p class="navbar-text">2 hours, 12 minutes, 53 seconds</p>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">Records</div>
+  <table class="table table-condensed">
+    <!--<thead>
+	  <tr>
+		<th>Time</th>
+	    <th>In</th>
+		<th>Out</th>
+		<th colspan="2">Summary</th>
+	  </tr>
+	</thead>-->
+	<tbody>
+	  <tr>
+	    <td>2.534</td>
+		<td>Jun-25 14:32:12</td>
+		<td>Jun-25 16:53:51</td>
+		<td>Implemented the widget interface and created unit tests for the doodads</td>
+		<td>
+		  <button type="button" class="btn btn-danger btn-xs">&times;</button>
+		</td>
+	  </tr>
+	  <tr>
+	    <td>5.342</td>
+		<td>Jun-25 14:32:12</td>
+		<td>Jun-25 16:53:51</td>
+		<td>Windows compilation with Visual Studio monitoring</td>
+		<td>
+		  <button type="button" class="btn btn-danger btn-xs">&times;</button>
+		</td>
+	  </tr>
+	  <tr>
+	    <td>3.425</td>
+		<td>Jun-25 14:32:12</td>
+		<td>Jun-25 16:53:51</td>
+		<td>Reimplemented code in Perl</td>
+		<td>
+		  <button type="button" class="btn btn-danger btn-xs">&times;</button>
+		</td>
+	  </tr>
+	  <tr>
+	    <td>4.253</td>
+		<td>Jun-25 14:32:12</td>
+		<td>Jun-25 16:53:51</td>
+		<td>Created API interface for JSON method attributes with Software-as-a-Service</td>
+		<td>
+		  <button type="button" class="btn btn-danger btn-xs">&times;</button>
+		</td>
+	  </tr>
+
+
+
+	</tbody>
+  </table>
+</div>
+{{end}}
