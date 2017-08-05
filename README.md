@@ -1,6 +1,6 @@
 # Time Tracker
 
-Keeps track of employee clock records
+This keeps track of employee clock records.
 
 # Compile and run
 
